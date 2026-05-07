@@ -8,7 +8,17 @@ import taskRoutes from './routes/taskRoutes.js';
 const app=express()
 dotenv.config()
 connectDB() 
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://task-manager-lac-six-32.vercel.app"
+];
+
+app.use(cors({
+  origin: allowedOrigins,
+  credentials: true
+}));
+
+app.options("*", cors());
 
 app.use(express.json());
 
