@@ -12,14 +12,8 @@ connectDB();
 
 const app = express();
 
-const allowedOrigins = [
-  "http://localhost:5173",
-  "https://task-manager-lac-six-32.vercel.app"
-];
-
 app.use(cors({
-  origin: allowedOrigins,
-  credentials: true
+  origin: "*",
 }));
 
 app.use(express.json());
