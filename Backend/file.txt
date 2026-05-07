@@ -1,0 +1,97 @@
+
+{
+  "name": "Jay",
+  "email": "jay@gmail.com",
+  "password": "123456",
+  "role": "Admin"
+}
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZmNiYTkwNTMxN2MxZTEzODRkODU2ZSIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTc3ODE3MDUxMiwiZXhwIjoxNzc4Nzc1MzEyfQ.4HJ9dlrnOTg1N0ahiqNx3m73nvFUOApuKAcaC68yYhg",
+    "user": {
+        "name": "Jay",
+        "email": "jay@gmail.com",
+        "password": "$2b$10$tagHNDOTrHtlth8bi46AGevRdaYkx/mvN7n/afGNugTsZMAY.Hq3u",
+        "role": "Admin",
+        "_id": "69fcba905317c1e1384d856e",
+        "createdAt": "2026-05-07T16:15:12.458Z",
+        "updatedAt": "2026-05-07T16:15:12.458Z",
+        "__v": 0
+    }
+}
+*///////////////////////////////////////////////////
+
+{
+  "name": "Jayavardhan",
+  "email": "jayavardhan@gmail.com",
+  "password": "123456",
+  "role": "Member"
+}
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5ZmNiYjMwNTMxN2MxZTEzODRkODU2ZiIsInJvbGUiOiJNZW1iZXIiLCJpYXQiOjE3NzgxNzA2NzIsImV4cCI6MTc3ODc3NTQ3Mn0.6CqpUrM5EkifqSqvVM_2XeJ9gzUliSHpKx8_X26HCOk",
+    "user": {
+        "name": "Jayavardhan",
+        "email": "jayavardhan@gmail.com",
+        "password": "$2b$10$YZdB7LRzs/rFuUt6cmF00.mU4GKpDfQRVP5yT8hbI1yHNrj2lLYwq",
+        "role": "Member",
+        "_id": "69fcbb305317c1e1384d856f",
+        "createdAt": "2026-05-07T16:17:52.794Z",
+        "updatedAt": "2026-05-07T16:17:52.794Z",
+        "__v": 0
+    }
+}///////////////////////////////////////////////////////
+
+create project
+
+{
+    "title": "Api Testing",
+    "description": "Project for team collaboration",
+    "createdBy": "69fcba905317c1e1384d856e",
+    "members": [
+        "69fcbb305317c1e1384d856f"
+    ],
+    "_id": "69fcbebf5317c1e1384d8570",
+    "createdAt": "2026-05-07T16:33:03.075Z",
+    "updatedAt": "2026-05-07T16:33:03.075Z",
+    "__v": 0
+}
+////////////////////////////////
+
+createtask
+{
+  "title": "Build Login API",
+  "description": "Create authentication endpoints",
+  "project": "69fcbebf5317c1e1384d8570",
+  "assignedTo": "69fcbb305317c1e1384d856f",
+  "status": "In Progress",
+  "dueDate": "2026-05-15"
+}
+{
+    "title": "Build Login API",
+    "description": "Create authentication endpoints",
+    "project": "69fcbebf5317c1e1384d8570",
+    "assignedTo": "69fcbb305317c1e1384d856f",
+    "status": "In Progress",
+    "dueDate": "2026-05-15T00:00:00.000Z",
+    "_id": "69fcc207a21020a764e4b6af",
+    "createdAt": "2026-05-07T16:47:03.777Z",
+    "updatedAt": "2026-05-07T16:47:03.777Z",
+    "__v": 0
+}
+//////////////////////////////////////
+updatetask
+
+{
+  "status": "Completed"
+}
+{
+    "_id": "69fcc207a21020a764e4b6af",
+    "title": "Build Login API",
+    "description": "Create authentication endpoints",
+    "project": "69fcbebf5317c1e1384d8570",
+    "assignedTo": "69fcbb305317c1e1384d856f",
+    "status": "Completed",
+    "dueDate": "2026-05-15T00:00:00.000Z",
+    "createdAt": "2026-05-07T16:47:03.777Z",
+    "updatedAt": "2026-05-07T16:53:58.962Z",
+    "__v": 0
+}
